@@ -9,7 +9,7 @@ console.log(pinValue);
 if (userValue === "admin" && pinValue === "admin123") {
     alert("Login successful!");
     // window.location.replace("/home.html");
-    window.location.assign("/home.html");
+    window.location.assign("./home.html");
 }
     else{
         alert("Invalid user and pin. Please try again.");
