@@ -162,6 +162,8 @@ const loadData = async () => {
     hiddenSpinner();
     displayData(data.data);
 };
+                            
+                        
 
 const displayData = (loads) => {
     const allContainer = document.getElementById("all_Container");
