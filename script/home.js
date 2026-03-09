@@ -9,7 +9,7 @@ const searchBtn = document.getElementById("search-btn");
 
     displayLoadDetail(data.data);
 };
-
+                // modal data load display 
 const displayLoadDetail = (load) => {
     const detailBox = document.getElementById("modal-container");
 
@@ -163,7 +163,7 @@ const loadData = async () => {
     displayData(data.data);
 };
                             
-                        
+                        // all data loads display
 
 const displayData = (loads) => {
     const allContainer = document.getElementById("all_Container");
